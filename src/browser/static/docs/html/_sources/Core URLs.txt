@@ -46,8 +46,7 @@ Create Repos, Table
 
 
 | ``url(r'^create/(\w+)/(\w+)/card/?$', 'browser.views.card_create')``
-| create a card (Cards store queries at the web app level, without creating a view.
-In this way, they're database independent.)
+| create a card (Cards store queries at the web app level, without creating a view. In this way, they're database independent.)
 
 | ``url(r'^create/(\w+)/(\w+)/dashboard/(\w+)/?$', 'browser.views.dashboard_create')``
 | This function doesn't exist. I'm not sure what's going on here.
@@ -162,6 +161,7 @@ Collaborators
 
 Client Apps
 -----------
+
 | ``url(r'^developer/apps/?$', 'browser.views.apps')``
 | View a list of application tokens that the user has created
 
